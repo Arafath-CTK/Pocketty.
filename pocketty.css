@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Neuton", serif;
+  font-size: 42px;
+  font-weight: bold;
+  background-color: #edf1fbdd;
+  color: #202d78;
+  display: flex;
+  justify-content: center;
+}
+.iecard {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: "Neuton", serif;
+  background-color: #edf1fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  min-height: 230px;
+  border-radius: 10px;
+  color: #202d78;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+}
+.ieform form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ieform form input {
+  width: 200px;
+  height: 35px;
+  border-radius: 6px;
+  border: 0;
+  text-align: center;
+}
+.ieform button {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 35px;
+  background-color: #202d78;
+  color: white;
+  border-radius: 6px;
+  border: 0.5px solid #4d63e4;
+}
+.home {
+  display: flex;
+}
+.dashboard {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.balancesheet {
+  position: relative;
+  background-color: #edf1fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 500px;
+  height: 100px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+}
+.divider {
+  border-right: 0.5px solid #202d78;
+  width: 250px;
+  height: 60px;
+}
+.balance {
+  position: absolute;
+  top: 0;
+  margin-left: 18px;
+  margin-top: 10px;
+  font-family: "Neuton", serif;
+  color: #202d78;
+  width: 250px;
+}
+.expense {
+  margin-left: 18px;
+  margin-top: 10px;
+  font-family: "Neuton", serif;
+  color: #202d78;
+  width: 250px;
+}
+.ieListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  min-width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #edf1fb;
+  font-family: "Neuton", serif;
+  color: #202d78;
+}
+#quote h3 {
+  font-size: 44px;
+}
+#quote {
+  display: block;
+}
+#ieList {
+  display: none;
+}
+#list {
+  border-collapse: collapse;
+  margin: 25px 0;
+  width: 420px;
+  font-size: 18px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#list th {
+  background-color: #202d78;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+#list th,
+#list td {
+  padding: 12px 15px;
+}
+#list tr {
+  border-bottom: 1px solid #dddddd;
+}
+#list tr:nth-child(1) {
+  border-bottom: 0;
+}
+#list tr:nth-of-type(even) {
+  background-color: #f7faff;
+}
+#list tr:last-of-type {
+  border-bottom: 2px solid #202d78;
+}
+#chartContainer {
+  display: none;
+  background-color: #edf1fb;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 40px;
+  width: 300px;
+}
+.chartDiv {
+  text-align: center;
+}
+#myChart {
+  margin-top: 38%;
+}
